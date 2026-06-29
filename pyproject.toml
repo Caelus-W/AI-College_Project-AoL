@@ -1,2 +1,6 @@
-[tool.vercel] 
+[project]
+name = "backend-app"
+version = "0.1.0"
+
+[tool.vercel]
 entrypoint = "backend.main:app"
