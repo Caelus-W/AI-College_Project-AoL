@@ -1,5 +1,7 @@
 import uvicorn
 
+from backend.main import app
+
 if __name__ == "__main__":
     # Start the backend FastAPI server
     # Running with reload=True dynamically updates the server during development
